@@ -22,3 +22,5 @@ const Carro = mongoose.model("Carro", {
     required: true,
   },
 });
+
+module.exports = Carro;
